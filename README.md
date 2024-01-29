@@ -1,6 +1,6 @@
 # WiFi_Network_Save_PC / Получение данных wifi сети
  Получение названия сети и сохраненных паролей на компьютере <br>
- Для Windows
+ Для Windows:
 ```python
 import subprocess
 
@@ -28,7 +28,7 @@ try:
 except Exception as ex:
     print(f'Ошибка: {ex}')
 ```
-Для Linux
+Для Linux:
 ```python
 import os
 import re
